@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         l = findViewById(R.id.list);
         ArrayAdapter<String> arr;
         arr
